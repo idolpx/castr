@@ -22,6 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <algorithm>
 #include <functional>
 #include <string>
+#include <cstdint>
 #include "json/json.h"
 
 static inline std::string getJsonString( Json::Value obj )
